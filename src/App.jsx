@@ -13,15 +13,9 @@ export default function LoginForm() {
 
         setIsFetching(true);
         login({ email, password })
-            .then(() => {
-                alert('Usuário Logado!');
-            })
-            .catch(error => {
-                setError(error.message);
-            })
-            .finally(() => {
-                setIsFetching(false);
-            });
+            .then(() => alert('Usuário Logado!'))
+            .catch(error => setError(error.message))
+            .finally(() => setIsFetching(false));
     };
 
     const handleChangeEmail = e => {
