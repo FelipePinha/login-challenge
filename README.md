@@ -1,8 +1,22 @@
-# React + Vite
+## Instruções:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<ul>
+    <li>Você tem um formulário de login INCOMPLETO</li>
+    <li>Não é permitido adicionar novos elementos HTML</li>
+    <li>Não é permitido usar refs</li>
+</ul>
 
-Currently, two official plugins are available:
+## Tarefas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+    <li>todo - Desabilite o botão de Login caso o e-mail esteja em branco OU a senha for menor que 6 dígitos.</li>
+
+    <li>todo - O botão de login deve disparar a função login(), importada no topo deste arquivo, e passar os dados necessários.</li>
+
+    <li>todo - Desabilite o botão de Login equanto você está executando o login.</li>
+
+    <li>todo - Mostre uma mensagem de erro de login() caso o Login falhe. A mensagem deve ser limpa a cada nova tentativa de Login.</li>
+
+    <li>todo - Mostre um alerta caso o login seja efetuado com sucesso (javascript alert). Investigue a função login() para entender como ter sucesso na requisição.</li>
+
+</ul>
