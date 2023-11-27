@@ -19,17 +19,17 @@ export default function LoginForm() {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
 
-    const handleLogin = async () => {
+    const handleLogin = () => {
         setError('');
 
-        await login({ email, password })
+        login({ email, password })
             .then(() => {
                 setEmail('');
                 setPassword('');
                 alert('Usuário Logado!');
             })
-            .catch(rej => {
-                setError(rej.message);
+            .catch(error => {
+                setError(error.message);
             });
     };
 
