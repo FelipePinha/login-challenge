@@ -21,7 +21,6 @@ export default function LoginForm() {
     const [isFetching, setIsFetching] = useState(false);
 
     const handleLogin = () => {
-        console.log('submitted');
         setError('');
 
         setIsFetching(true);
